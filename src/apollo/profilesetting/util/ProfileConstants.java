@@ -1,0 +1,45 @@
+package apollo.profilesetting.util;
+
+public final class ProfileConstants {
+	public static final String ACTION_CHOOSE_FILE = "apollo.action.CHOOSE_FILE";
+	public static final String BLANK_SUMMARY = " ";
+	public static final String CHOOSE_FILE = "apollo.FileManager.ChooseFileNameActivity";
+	public static final String FILE_MANAGERR = "apollo.FileManager";
+	public static final String INTENT_ACTION_APPLY = "apollo.profilesetting.action.APPLY";
+	public static final String INTENT_ACTION_DELETE = "apollo.profilesetting.action.DELETE";
+	public static final String INTENT_ACTION_EDIT = "apollo.profilesetting.action.EDIT";
+	public static final String INTENT_ACTION_MODE_CHANGE = "apollo.profilesetting.MODE_CHANGE_FROM_PROFILESETTING";
+	public static final String INTENT_ACTION_MULTIDELETE = "apollo.profilesetting.action.MULTIDELETE";
+	public static final String INTENT_ACTION_NEW = "apollo.profilesetting.action.NEW";
+	public static final String INTENT_ACTION_VIEW = "apollo.profilesetting.action.VIEW";
+	public static final String KEY_AIRPLANE = "wireless_airplane_mode";
+	public static final String KEY_BLUETOOTH = "wireless_bluetooth";
+	public static final String KEY_GPS = "location_gps";
+	public static final String KEY_REPEAT = "setRepeat";
+	public static final String KEY_RINGER_VOLUME = "ringer_volume";
+	public static final String KEY_SILENT_MODE = "sound_slient_mode";
+	public static final String KEY_VIBRATE_MODE = "sound_vibrate_mode";
+	public static final String KEY_GSM_RINGSTONE = "gsm_ringtone_settings";
+	public static final String KEY_WLAN = "wireless_wlan";
+	public static final int MIN_SD_REQUIRED = 51200;
+	public static final int MSG_ACTIVATE_PROFILE_END = 1002;
+	public static final int MSG_ACTIVATE_PROFILE_START = 1001;
+	public static final int NOTIFY_AUTO_APPLY = 1;
+	public static final String PACKAGE_NAME = "apollo.profilesetting.view";
+	public static final String PREFERENCES = "activated_profile";
+	public static final String PREF_ACTIVATED_PROFILE_ID = "profile_id";
+	public static final int PROFILE_ID_CURRENT = 0;
+	public static final String PROFILE_ID_EXTRA = "ProfileClomuns_ID";
+	public static final int PROFILE_ID_INVALID = 255;
+	public static final int RESULT_IN_AIRPLANE_MODE = 4;
+	public static final int RESULT_SUCCESS = 0;
+	public static final String SETTING_DB_REJECT_CALL_WITH_MSG = "key_show_reject_message";
+	public static final int VALUE_DISABLED = 254;
+	public static final int VALUE_NOT_APPLY = 255;
+	public static final int VALUE_OFF = 0;
+	public static final int VALUE_ON = 1;
+	public static final int VIBRATE_ALWAYS_ON = 1;
+	public static final int VIBRATE_NEVER = 2;
+	public static final int VIBRATE_ONLY_IN_SILENT = 3;
+	public static final int VIBRATE_UNLESS_SILENT = 4;
+}

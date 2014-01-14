@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/profile_auto_apply"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/auto_apply_enable" android:key="auto_apply_enable" />
+    <Preference android:persistent="false" android:title="@string/apply_time" android:key="time" />
+    <apollo.profilesetting.view.ProfileRepeatPreference android:persistent="false" android:title="@string/setRepeat" android:key="setRepeat" />
+</PreferenceScreen>

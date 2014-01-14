@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@id/edit_text_profile_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal"
+        android:hint="@string/profile_name"
+        android:imeOptions="actionDone"
+        android:maxLength="40"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+</LinearLayout>

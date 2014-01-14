@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="?android:listPreferredItemHeight" >
+
+    <ImageView  
+        android:id="@id/profileIcon"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:layout_marginLeft="6dip"  
+        android:layout_marginRight="6dip"  
+        android:layout_gravity="center" />
+    
+    <RelativeLayout
+        android:id="@android:attr/theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6.0sp"
+        android:layout_marginLeft="16.0sp"
+        android:layout_marginRight="6.0sp"
+        android:layout_marginTop="6.0sp"
+        android:layout_weight="1.0"
+        android:background="@android:drawable/menuitem_background"
+        android:focusable="true" >
+
+        <!-- 默认配置项的标题 -->
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:singleLine="true"
+            android:textAppearance="?android:textAppearanceLarge" />
+	
+        <!-- 暂不知道是干嘛的 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@android:id/title"
+            android:layout_below="@android:id/title"
+            android:orientation="horizontal" >
+
+            <apollo.profilesetting.view.ProfileDigitalClock
+                android:id="@id/digitalClock"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="true" >
+
+                    <TextView
+                        android:id="@id/timeDisplay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="6.0dip"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="?android:textColorSecondary" />
+
+                    <TextView
+                        android:id="@id/am_pm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="?android:textColorSecondary" />
+
+                    <TextView
+                        android:id="@id/daysOfWeek"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:includeFontPadding="false"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="?android:textColorSecondary" />
+                </LinearLayout>
+            </apollo.profilesetting.view.ProfileDigitalClock>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="?android:windowBackground"
+        android:gravity="fill_vertical"
+        android:paddingBottom="4.0dip"
+        android:paddingTop="4.0dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/divider_vertical_dark" />
+
+    <RadioButton
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@android:attr/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:clickable="true" />
+
+</LinearLayout>

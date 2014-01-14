@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res/apollo.profilesetting.view" android:key="profile_view">
+  <Preference android:key="no_setting" android:order="1" android:persistent="false" android:summary="@string/no_setting_message" android:title="@string/no_setting" />
+  <PreferenceCategory android:key="wireless_category" android:order="2" android:title="@string/title_wireless_settings">
+    <Preference android:key="wireless_airplane_mode" android:order="1" android:persistent="false" android:title="@string/title_airplane" />
+    <Preference android:key="wireless_wlan" android:order="2" android:persistent="false" android:title="@string/title_wlan" />
+    <Preference android:key="wireless_bluetooth" android:order="3" android:persistent="false" android:title="@string/title_bluetooth" />
+  </PreferenceCategory>
+  <PreferenceCategory android:key="location_category" android:order="3" android:title="@string/title_location_settings">
+    <Preference android:key="location_gps" android:order="1" android:persistent="false" android:title="@string/title_gps" />
+  </PreferenceCategory>
+  <PreferenceCategory android:key="sound_category" android:order="5" android:title="@string/title_sound_settings">
+    <Preference android:key="sound_slient_mode" android:order="1" android:persistent="false" android:title="@string/title_slient_mode" />
+    <Preference android:key="ringer_volume" android:order="2" android:persistent="false" android:title="@string/title_ringer_volume" />
+    <Preference android:key="sound_vibrate_mode" android:order="3" android:persistent="false" android:title="@string/title_vibrate_mode" />
+    <Preference android:persistent="false" android:title="@string/ringtone_gsm_title" android:key="gsm_ringtone_settings" android:summary="@string/ringtone_gsm_summary" android:order="4" />
+  </PreferenceCategory>
+</PreferenceScreen>

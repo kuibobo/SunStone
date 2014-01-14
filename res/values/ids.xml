@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="ignore_ringervolume_setting">false</item>
+    <item type="id" name="digitalClock">false</item>
+    <item type="id" name="timeDisplay">false</item>
+    <item type="id" name="am_pm">false</item>
+    <item type="id" name="daysOfWeek">false</item>
+    <item type="id" name="edit_text_profile_name">false</item>
+    <item type="id" name="save_profile">false</item>
+    <item type="id" name="discard_profile">false</item>
+    <item type="id" name="selectall">false</item>
+    <item type="id" name="label">false</item>
+    <item type="id" name="checkbox_deleteall">false</item>
+    <item type="id" name="buttons">false</item>
+    <item type="id" name="ok">false</item>
+    <item type="id" name="cancel">false</item>
+    <item type="id" name="listview">false</item>
+    <item type="id" name="checkedTextView">false</item>
+    <item type="id" name="profileIcon">false</item>
+    <item type="id" name="img_wifi">false</item>
+    <item type="id" name="ind_wifi">false</item>
+    <item type="id" name="btn_wifi">false</item>
+    <item type="id" name="img_bluetooth">false</item>
+    <item type="id" name="ind_bluetooth">false</item>
+    <item type="id" name="btn_bluetooth">false</item>
+    <item type="id" name="img_gps">false</item>
+    <item type="id" name="ind_gps">false</item>
+    <item type="id" name="btn_gps">false</item>
+    <item type="id" name="img_sync">false</item>
+    <item type="id" name="ind_sync">false</item>
+    <item type="id" name="btn_sync">false</item>
+    <item type="id" name="img_brightness">false</item>
+    <item type="id" name="ind_brightness">false</item>
+    <item type="id" name="btn_brightness">false</item>
+</resources>
