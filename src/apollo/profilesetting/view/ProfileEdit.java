@@ -25,6 +25,8 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
+import android.view.ViewParent;
 import android.widget.Button;
 import android.view.View.OnClickListener;
 import android.widget.EditText;
@@ -174,7 +176,7 @@ public class ProfileEdit extends PreferenceActivity
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		FrameLayout framelayout = null;
+		//FrameLayout framelayout = null;
 		ListView listview = null;
 		LinearLayout linearlayout = null;
 		LinearLayout.LayoutParams layoutparams = null;
@@ -182,10 +184,11 @@ public class ProfileEdit extends PreferenceActivity
 		
 		super.onCreate(savedInstanceState);
 		addPreferencesFromResource(R.xml.profile_edit);
-		framelayout = (FrameLayout) getWindow().getDecorView()
-				.findViewById(16908290);
+		//framelayout = (FrameLayout) getWindow().getDecorView().findViewById(16908290);
 		listview = getListView();
-		framelayout.removeView(listview);
+
+	//	framelayout.removeView(listview);
+		((ViewGroup)listview.getParent()).removeView(listview);
 		linearlayout = new LinearLayout(this);
 		linearlayout.setOrientation(1);
 		view = LayoutInflater.from(this).inflate(R.layout.profile_edit_header, linearlayout);
